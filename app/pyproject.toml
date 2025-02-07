@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "julibu-web"
+version = "0.0.1"
+description = "Julibu Burmese Django based web app."
+authors = ["James E. Bryer <jamesbryer098@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.9"
+requests = "^2.32.3"
+django = "^5.1.6"
+uuid = "^1.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
